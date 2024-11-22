@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+
+.container-nav{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/Home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-bottom: 30%; */
+    /* header: 50%; */
+    height: 75vh;
+}
+.logo img{
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; 
+    align-self: flex-end; 
+    gap: 90px; 
+    margin-right: 70px;
+    background-color: rgb(252, 252, 252);
+    padding: 20px 20px 20px 20px;   
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 50px;
+    /* margin-bottom: 60px */
+     
+}
+
+.name{
+    margin-left: 10%;
+    color: rgb(252, 252, 252);
+    padding: 20px 10px 10px 10px;  /* Adjusted padding for top and bottom */
+    font-size: 40px;
+    margin-bottom: 250px;  /* Increased margin-top to move name down */
+    font-weight: 300;
+    /* word-spacing: 20%;
+    letter-spacing: 20%; */
+         
+}   
+ 
+.Mid{
+    display: flex;
+    background-color: rgba(150, 79, 7, 0.796);
+    height: 40%;
+    
+}
+
+.Text1 p{
+    font-size: 40px;  
+    line-height: 1.8;  
+    margin-top: 8%;
+    color: rgb(248, 249, 250); 
+    margin-right: 20%; 
+    }
+.Text1 h2 {
+        font-size: 40px;  /* Increase the font size of the h2 */
+        margin-bottom: 20px;  /* Adjust margin below the h2 to control spacing */
+        color: rgb(248, 249, 250);
+        margin-top: 15%;
+        word-spacing: 10px;
+    }
+
+.Logo1{
+    /* width: 40vw;   */
+    height: 15%; 
+    margin: 100px;
+}
+.Footer{    
+    display: flex;
+    padding: 30px 100px;
+    font-size: 30px;
+    font-weight: 200;
+    background-color: rgba(165, 112, 42, 0.717);
+}
+.Footer_Logo{
+    width: 130px; /* Smaller footer logo */
+    height: 130px; /* Smaller footer logo */
+    object-fit: contain;
+    display: flex;
+    margin-left: 50%;
+    margin-right: 50%;
+    border-left: 20px;
+    padding-left: 350%;
+    /* margin-left: auto; /* Pushes the logo container to the right */
+    margin-right: 0; /* Remove right margin */
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.awesome{
+    font-size: 100px;
+}
+.container-nav1{
+    background-image: url('../images/people.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif; 
+    display: flex;
+    padding-top: 250px;
+    flex-direction: column;
+    height: 110vh;
+}
+/* .logo img{
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+} */
+.Big_con p{
+    margin-top: -30%;
+    background-color: rgba(125, 89, 46, 0.756);
+    padding: 80px 0;
+    height: 245px;
+    border-top: 30px;
+    
+}
+.Text2 {
+    
+    /* font-weight: 100; */
+    font-size: 40px;
+    color: rgb(248, 249, 250); 
+    /* position: relative; */
+    text-align: center; 
+    line-height: 100px;
+    /* padding-left: 20%; */
+    /* padding-right: 20%; */
+    /* border-top: 10%; */
+    /* text-justify: inter-word; */
+    height: 50px;
+    
+       
+}
+
+/* .Big_con {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.Text2 {
+    background-color: rgba(125, 89, 46, 0.756);
+    font-weight: 300;
+    font-size: 250%;
+    color: rgb(248, 249, 250); 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center; 
+    padding-top: 50%;
+    line-height: 90px;
+    padding: 20px;
+    /* border-top: 5px solid rgba(125, 89, 46, 0.9); */
+    margin: 0 auto;
+
+.OH_div{
+    height: auto;
+    max-height: 700px;
+    padding: 10px;
+    margin: 20px auto;
+    
+}
+
+.OH_div img{
+    max-height: auto; 
+    width: 300px;
+    background-color: rgba(125, 89, 46, 0.756);
+    box-shadow: 10px 10px 10px rgba(10, 8, 5, 0.756);
+}
+
+.OH_div p{
+    font-size: 30px; 
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(243, 245, 248);
+}
+
+.HF_div {
+    height: 50px; 
+    max-height: 500px;
+    padding-right: -25%; 
+   
+}
+
+.HF_div img {
+    max-height: 350px; 
+    width: auto;
+    box-shadow: 10px 10px 10px rgba(10, 8, 5, 0.756);
+      
+}
+
+.HF_div p {
+    font-size: 30px; 
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(243, 245, 248); 
+}
+
+.SH_div{
+    height: auto;
+    max-height: 700px;
+    /* padding-left: 10%; */
+    
+}
+
+.SH_div img{
+    max-height: auto; 
+    width: 300px;
+    /* padding-right: 10%; */
+    box-shadow: 10px 10px 10px rgba(10, 8, 5, 0.756);
+    
+}
+
+.SH_div p{
+    font-size: 30px; 
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(243, 245, 248);
+}
+
+.MH_div{
+    height: auto;
+    max-height: 700px;
+    
+}
+.MH_div img{
+    max-height: auto; 
+    width: 300px;
+    box-shadow: 10px 10px 10px rgba(10, 8, 5, 0.756);
+    
+}
+.MH_div p{
+    font-size: 30px; 
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(243, 245, 248);
+    
+}
+.Big_div{
+    display: flex;
+    justify-content: space-evenly; /* Ensures equal spacing between items */
+    gap: 55px; /* Adds equal spacing between elements */
+    margin: 50px auto;
+    padding: 10px; 
+    background-color: saddlebrown; 
+    height: 500px;
+}
+
