@@ -18,6 +18,7 @@
     width: 130px;
     height: 130px;
     margin: 20px;
+    
 }
 
 .nav {
@@ -32,7 +33,20 @@
     font-weight: 200;
     margin-top: 50px;
     /* margin-bottom: 60px */
+    
      
+}
+
+.nav a {
+
+    text-decoration: none; /* Removes underline */
+    font-size: 18px; /* Adjust font size */
+    padding: 10px 15px; /* Adds spacing around links */
+    transition: background-color 0.5s; /* Smooth hover effect */
+}
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Highlight on hover */
+    border-radius: 5px; /* Rounded hover effect */
 }
 
 .name{
@@ -82,28 +96,25 @@
     background-color: rgba(165, 112, 42, 0.717);
 }
 .Footer_Logo{
-    width: 130px; /* Smaller footer logo */
-    height: 130px; /* Smaller footer logo */
+    width: 130px; 
+    height: 130px; 
     object-fit: contain;
     display: flex;
     margin-left: 50%;
     margin-right: 50%;
     border-left: 20px;
     padding-left: 350%;
-    /* margin-left: auto; /* Pushes the logo container to the right */
-    margin-right: 0; /* Remove right margin */
-    margin-top: 0; /* Remove top margin */
-    margin-bottom: 0; /* Remove bottom margin */
+    margin-right: 0; 
+    margin-top: 0; 
+    margin-bottom: 0; 
 }
 
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 
-.awesome{
-    font-size: 100px;
-}
+
 .container-nav1{
     background-image: url('../images/people.jpg');
     background-size: cover; 
@@ -260,3 +271,474 @@
     height: 500px;
 }
 
+.container-nav2{
+    /* display: flex; */
+    flex-direction: column;
+    background-image: 
+    linear-gradient(to top, rgba(254, 254, 254, 0.659), rgba(245, 243, 243, 0.773)), 
+    url('../images/AX8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    /* padding-bottom: 30%; */
+    /* margin-top: -30px; */
+    
+}
+.big_na{
+    display: flex;
+    gap: 25%;
+      
+}
+
+.nav3{
+    display: flex;
+    justify-content: space-between; 
+    align-self: flex-end; 
+    gap: 90px; 
+    /* margin-right: 50px; */
+    background-color: rgb(252, 252, 252);
+    padding: 20px 20px 20px 20px;   
+    font-size: 20px;
+    font-weight: 200;
+    height: 10%;
+    margin-top: 60px;
+    text-decoration: none;
+    
+}
+
+.rectangle {
+    width: 99vw; /* Extends the rectangle to the full width of the screen */
+    height: 50px; /* Adjust the height of the rectangle */
+    background-color: rgb(135, 11, 32);
+    /* margin-top: 28%; */
+
+  }
+..nav3 :hover{
+    
+}
+
+
+.AXO7{
+    width: 100%; /* Scales image width to 100% of its container */
+    max-width: 800px; /* Limits the maximum width of the image */
+    height: auto; /* Maintains aspect ratio */
+    margin:  auto; /* Centers the image within the container */
+    display: block;
+    /* padding-bottom: 5px;  */
+}
+
+.big_AX07{
+    display: flex;
+    
+}
+.big_AX07 b{
+    font-size: 30px; 
+    /* margin-top: 15px; */
+    justify-self: end;
+    color: rgb(92, 68, 3);
+    /* padding-top: 80px; */
+    line-height: 40px;
+    border-bottom: 20px;
+    font-family: Arial, sans-serif ;
+    
+    
+}
+
+.AB_div button{
+    padding-left: 10px;
+}
+
+.AX_div{
+    display: flex;
+    gap: 20%;
+    background-color: rgba(150, 79, 7, 0.796);
+    margin-top: 2%;
+    padding-top: 2%;
+    justify-content: center;
+    font-size: 20px;
+    font: 100;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    
+}
+
+.AX9{
+    max-height: auto; 
+    width: 400px;
+        
+}
+/* .AX10{
+    max-width: 100%; /* Make the images responsive */
+      height: auto; /* Maintain aspect ratio of images */
+    
+.Contact_div img {
+    max-width: 100%; 
+    height: auto; 
+    width: 150px; 
+  }
+  
+    
+  .Contact_div1{
+    display: flex;
+    justify-self: auto;
+    padding-left: 50px;
+    font-size: small;
+
+  }
+  .nav4{
+    display: flex;
+    gap: 30px; 
+    background-color: rgba(223, 180, 100, 0.855);
+    padding: 20px 20px 20px 20px;   
+    font-size: 20px;
+    font-weight: 200;
+    /* height: 30%; */
+    margin-top: 60px;
+    text-decoration: none;
+    width: 50%;
+    margin-left: auto;
+    position: absolute; /* Position the element absolutely */
+    top: 150px; /* Align to the top of the page */
+    right: 0; 
+  }
+  .rectangle1 {
+    width: 99vw; 
+    height: 80px; 
+    background-color: rgb(135, 79, 11);
+   
+  }
+  .Contact_img{
+    transform: scaleX(-1) ;
+  }
+  
+  /* .form_div{
+    width: 105%; 
+    padding: 30px; 
+    margin-bottom: 55px; /* Space between input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 30px; /* Font size for input text */
+    box-sizing: border-box;
+    margin-top: 40%;
+  } */
+
+
+  /* input{
+    width: 30%
+    height: 40px;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-size: 20px; 
+    box-sizing: border-box;
+
+  } */
+  
+  .Contact_div1{
+    justify-items: center;
+  }
+
+  .login_body{
+    background-image: 
+    linear-gradient(to top, rgba(254, 254, 254, 0.659), rgba(245, 243, 243, 0.773)), 
+    url('../images/AX8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+  }
+.Wel{
+    justify-items: center;
+    line-height: 40px;
+    margin-right: 30px;
+    /* text-decoration: ; */
+}
+
+.AB_div{
+    display: flex;
+    
+}
+
+.form_div{
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 150%;
+}
+
+.forgot{
+    margin-top:  -45px;
+    font-size: 15px;
+    padding-left: 55%;
+}
+
+.login button{
+    background-color: rgb(144, 112, 37);
+    color: rgb(250, 245, 245);
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 45%;
+}
+
+.login a{
+    color: #fefcfc;
+    text-decoration: none;
+}
+
+.log_div{
+   font-size: 20px;
+   color: rgba(29, 28, 26, 0.756);
+   margin-top: -10px;
+   padding-left: 65px;
+}
+
+.Welcome{
+    font-size: 20px;
+    padding-left: 55px;
+}
+
+.signup{
+    font-size: 20px;
+    padding-left: 55px;
+    padding-top: 10%;
+    
+}
+
+.signup button{
+    background-color: rgb(144, 112, 37);
+    color: rgb(250, 245, 245);
+    padding: 10px 40px;
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.signup a{
+    color: #fefcfc;
+    text-decoration: none;
+}
+
+
+.Footer_Logo1{
+    width: 130px; 
+    height: 130px; 
+    object-fit: contain;
+    display: flex;
+    margin-left: 50%;
+    margin-right: 50%;
+    border-left: 20px;
+    padding-left: 30%;
+    margin-right: 10%; 
+    margin-top: 10px; 
+    
+}
+
+.Footer1{
+    font-size: 25px;
+    font-weight: 200;
+    background-color: rgba(165, 112, 42, 0.883);
+    /* margin-top: 15px; */
+    height: 15.9%;
+    
+}
+
+.Contact{
+    margin-left: 70%;
+    margin-top: -2%;
+    color: #fbf9f9;
+    line-height: 1.5;
+    
+}
+.Contact a{
+    color: #fbf9f9;
+    text-decoration: none;
+}
+
+.Get{
+   margin-left: 40%;
+   margin-bottom: 50px;
+   position: absolute;
+   line-height: 1.0;
+   margin-top: -15px;
+   color: #fbf9f9;
+
+}
+.Get  a{
+    color: #fbf9f9;
+    text-decoration: none;
+}
+
+.flex a{
+    color: #fbf9f9;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.awesome{
+    font-size: 30px;
+    background-color: #fdfbfb;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Follow{
+    margin-top: 10px;
+}
+a:hover {
+    /* text-decoration: none; */
+    color: rgb(95, 4, 4); 
+    border-radius: 5px;
+
+}
+.signup_body{
+    background-image: url('../images/AX.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    justify-self: center;
+    padding-bottom: 100px;
+}
+
+.WH_div{
+    padding: 10px;
+    margin-left: 10px;
+   
+
+/* .WH_div h2{
+    color: rgb(95, 4, 4);
+    margin-left: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+signup_div{
+    font-size: 20px;
+    /* margin-top: -10px;
+    padding-left: 65px; */
+    padding: 10%;
+    margin-left: 10%; 
+    
+}
+form{
+    width: 100%;
+   
+}
+
+.rectangle2{
+    width: 100vw; 
+    height: 80px; 
+    background-color: rgba(252, 252, 252, 0.616);
+    margin-top: 15%;
+    padding-bottom: 15%;
+    padding-top: 75px;
+    justify-self: center;
+  }
+
+  .signup_div{
+    padding: 20%;
+    margin-top: -60%;
+    margin-left: 10%;
+  }
+
+  .WH_div{
+    margin-left: -155px;
+    justify-self: center;
+    color: rgb(189, 132, 34);
+    font-size: larger;
+
+  }
+
+  label{
+    font-size: large;
+  }
+  
+  .Footer_div footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 30px;
+    padding-bottom: -50px;
+    
+    background-color: #a2772e; 
+    color: white;
+}
+
+.Follow_div, .Contact_div {
+    flex: 1; 
+    /* margin: 20px; */
+}
+
+.Follow_div h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.Follow_div a {
+    margin-right: 10px; 
+    font-size: 30px; 
+    text-decoration: none; 
+    color: rgb(8, 7, 7); 
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.Follow_div a:hover {
+    color: gold; /* Change icon color on hover */
+    transform: scale(1.2); /* Slightly enlarge icon */
+}
+
+
+.Contact_div h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.Contact_div p {
+    margin: 5px 0; /* Adds spacing between lines */
+    font-size: 16px;
+}
+
+.Contact_div i {
+    margin-right: 10px; 
+}
+
+
+.Footer_div {
+    border-top: 5px solid #a2772e; 
+    padding-top: 15px; 
+    margin-top: -10%;
+    padding-bottom: 25px;
+}
+
+.signup a, button{
+    background-color: #a2772e;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.action_div{
+    margin-top: -25px;
+}
+
+.Contact_div a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20%;
+}
