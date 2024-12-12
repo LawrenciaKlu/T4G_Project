@@ -28,25 +28,31 @@
     gap: 90px; 
     margin-right: 70px;
     background-color: rgb(252, 252, 252);
-    padding: 20px 20px 20px 20px;   
+    padding: 10px 20px 10px 20px;   
     font-size: 20px;
     font-weight: 200;
     margin-top: 50px;
-    /* margin-bottom: 60px */
     
-     
+       
+}
+
+.nav a:hover {
+    background: #8b6e2e; 
+    transform: scale(1.05); 
+}
+.nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #c28d24; /* Green underline for active link */
 }
 
 .nav a {
-
     text-decoration: none; /* Removes underline */
     font-size: 18px; /* Adjust font size */
     padding: 10px 15px; /* Adds spacing around links */
     transition: background-color 0.5s; /* Smooth hover effect */
 }
 .nav a:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Highlight on hover */
-    border-radius: 5px; /* Rounded hover effect */
+    border-radius: 5px; 
 }
 
 .name{
@@ -176,7 +182,7 @@
     line-height: 90px;
     padding: 20px;
     /* border-top: 5px solid rgba(125, 89, 46, 0.9); */
-    margin: 0 auto;
+    
 
 .OH_div{
     height: auto;
@@ -301,9 +307,14 @@
     font-size: 20px;
     font-weight: 200;
     height: 10%;
-    margin-top: 60px;
-    text-decoration: none;
-    
+    margin-top: 60px;  
+}
+
+.nav3 a {
+    text-decoration: none; /* Remove underline */
+    color: rgb(15, 14, 14); /* Neutral dark text color */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    transition: color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
 }
 
 .rectangle {
@@ -313,22 +324,20 @@
     /* margin-top: 28%; */
 
   }
-..nav3 :hover{
-    
-}
+
 
 
 .AXO7{
-    width: 100%; /* Scales image width to 100% of its container */
-    max-width: 800px; /* Limits the maximum width of the image */
-    height: auto; /* Maintains aspect ratio */
-    margin:  auto; /* Centers the image within the container */
+    width: 100%; 
+    max-width: 800px; 
+    height: auto; 
     display: block;
-    /* padding-bottom: 5px;  */
+      
 }
 
 .big_AX07{
     display: flex;
+    
     
 }
 .big_AX07 b{
@@ -344,9 +353,9 @@
     
 }
 
-.AB_div button{
+/* .AB_div button{
     padding-left: 10px;
-}
+} */
 
 .AX_div{
     display: flex;
@@ -368,9 +377,8 @@
     width: 400px;
         
 }
-/* .AX10{
-    max-width: 100%; /* Make the images responsive */
-      height: auto; /* Maintain aspect ratio of images */
+
+     
     
 .Contact_div img {
     max-width: 100%; 
@@ -388,20 +396,40 @@
   }
   .nav4{
     display: flex;
-    gap: 30px; 
+    gap: 65px; 
     background-color: rgba(223, 180, 100, 0.855);
     padding: 20px 20px 20px 20px;   
     font-size: 20px;
     font-weight: 200;
     /* height: 30%; */
-    margin-top: 60px;
-    text-decoration: none;
+    margin-top: 60px; 
     width: 50%;
     margin-left: auto;
     position: absolute; /* Position the element absolutely */
     top: 150px; /* Align to the top of the page */
     right: 0; 
   }
+
+  .nav3 a:hover {
+    color: #8b6e2e; 
+    transform: scale(1.05); 
+}
+
+
+.nav a:hover {
+    border-radius: 5px; 
+}
+.nav3 a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #c28d24; /* Green underline for active link */
+}
+
+  .nav4 a {
+    text-decoration: none; /* Remove underline */
+    color: rgb(14, 14, 14); /* Neutral dark text color */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    transition: color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
   .rectangle1 {
     width: 99vw; 
     height: 80px; 
@@ -410,18 +438,26 @@
   }
   .Contact_img{
     transform: scaleX(-1) ;
+    margin-top: -30%;
   }
+  
+  /* .Contact_div{
+    display: flex;
+    gap: 30px;
+    justify-self: auto;
+    padding-left: 50px;
+    /* font-size: small; */
+   
+  }
+   */
+
   
   /* .form_div{
     width: 105%; 
     padding: 30px; 
     margin-bottom: 55px; /* Space between input fields */
-    border: 1px solid #ccc; /* Light gray border */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 30px; /* Font size for input text */
-    box-sizing: border-box;
-    margin-top: 40%;
-  } */
+    /* border: 1px solid #ccc; /* Light gray border */
+    
 
 
   /* input{
@@ -437,6 +473,10 @@
   
   .Contact_div1{
     justify-items: center;
+  }
+
+  .Contact_div1 h1{
+    margin-left: 3%;
   }
 
   .login_body{
@@ -464,13 +504,31 @@
     font-size: 25px;
 }
 
+.form_div input{
+    width: 65%;
+}
+
 input{
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 20px;
     box-sizing: border-box;
-    width: 150%;
+    /* width: 150%; */
+}
+
+.form1{
+    width: 50%;
+    margin-left: 6%;
+    background-color:rgba(223, 180, 100, 0.855);
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-style: groove;
+    padding: 30px 40px;
+    margin-right: -20%;
+    box-shadow: inset 0 0 0 5px #890606;
+    margin-top: 5%;
+    /* outline: 2px solid #890606; */
 }
 
 .forgot{
@@ -515,8 +573,8 @@ input{
     
 }
 
-.signup button{
-    background-color: rgb(144, 112, 37);
+button{
+    /* background-color: rgb(144, 112, 37); */
     color: rgb(250, 245, 245);
     padding: 10px 40px;
     border: none;
@@ -535,14 +593,12 @@ input{
 .Footer_Logo1{
     width: 130px; 
     height: 130px; 
-    object-fit: contain;
     display: flex;
     margin-left: 50%;
     margin-right: 50%;
-    border-left: 20px;
     padding-left: 30%;
     margin-right: 10%; 
-    margin-top: 10px; 
+    margin-bottom: -10%;
     
 }
 
@@ -550,14 +606,14 @@ input{
     font-size: 25px;
     font-weight: 200;
     background-color: rgba(165, 112, 42, 0.883);
-    /* margin-top: 15px; */
+    margin-top: 30px;
     height: 15.9%;
     
 }
 
 .Contact{
     margin-left: 70%;
-    margin-top: -2%;
+    margin-top: -8%;
     color: #fbf9f9;
     line-height: 1.5;
     
@@ -596,12 +652,10 @@ input{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.Follow{
-    margin-top: 10px;
-}
+
 a:hover {
     /* text-decoration: none; */
-    color: rgb(95, 4, 4); 
+    /* color: rgb(95, 4, 4);  */
     border-radius: 5px;
 
 }
@@ -629,19 +683,28 @@ signup_div{
     font-size: 20px;
     /* margin-top: -10px;
     padding-left: 65px; */
-    padding: 10%;
-    margin-left: 10%; 
+    /* padding: 10%;
+    margin-left: 10%;  */
     
 }
-form{
+/* form{
     width: 100%;
-   
+
+} */
+
+/* .form1{
+    margin-top: 50%;
+    width: 250%;
+    margin-left: -85%;
+} */
+.I_div{
+    width: 199%;
 }
 
 .rectangle2{
     width: 100vw; 
     height: 80px; 
-    background-color: rgba(252, 252, 252, 0.616);
+    background-color: rgba(252, 252, 252, 0.903);
     margin-top: 15%;
     padding-bottom: 15%;
     padding-top: 75px;
@@ -671,16 +734,15 @@ form{
     justify-content: space-between; 
     align-items: flex-start; 
     padding: 30px;
-    padding-bottom: -50px;
-    
-    background-color: #a2772e; 
-    color: white;
+    background-color:rgba(150, 79, 7, 0.796);
+    margin-top: 5%;
 }
 
 .Follow_div, .Contact_div {
     flex: 1; 
-    /* margin: 20px; */
+    
 }
+
 
 .Follow_div h1 {
     font-size: 24px;
@@ -692,12 +754,12 @@ form{
     font-size: 30px; 
     text-decoration: none; 
     color: rgb(8, 7, 7); 
-    transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+    transition: transform 0.3s ease, color 0.3s ease; 
 }
 
 .Follow_div a:hover {
-    color: gold; /* Change icon color on hover */
-    transform: scale(1.2); /* Slightly enlarge icon */
+    color: gold; 
+    transform: scale(1.2); 
 }
 
 
@@ -707,7 +769,7 @@ form{
 }
 
 .Contact_div p {
-    margin: 5px 0; /* Adds spacing between lines */
+    margin: 5px 0; 
     font-size: 16px;
 }
 
@@ -716,17 +778,18 @@ form{
 }
 
 
+
 .Footer_div {
-    border-top: 5px solid #a2772e; 
+    border-top: 5px solid rgba(150, 79, 7, 0.796);
     padding-top: 15px; 
-    margin-top: -10%;
-    padding-bottom: 25px;
+    margin-top: -15%;
+
 }
 
 .signup a, button{
     background-color: #a2772e;
     color: rgb(255, 255, 255);
-    padding: 10px 20px;
+    /* padding: 1px 20px; */
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -734,7 +797,7 @@ form{
 }
 
 .action_div{
-    margin-top: -25px;
+    margin-top: 75px;
 }
 
 .Contact_div a{
@@ -742,3 +805,52 @@ form{
     color: rgb(255, 255, 255);
     font-size: 20%;
 }
+
+.to_div{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(90deg, #ae7d38, #f4b878);
+    color: rgb(255, 255, 255);
+}
+
+input{
+    width: 65%;
+}
+button:hover {
+    background-color: #8f0808;
+} 
+
+.link:hover, .active{
+   background: #fbf9f9(255, 255, 255 0.7);
+}
+/* .Signup1{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-decoration: none;
+
+} */
+
+.AC{
+    margin-top: 10%;
+}
+
+.AC1{
+    margin-top: 17%;
+}
+.button1{
+    margin-top: 50%;
+    
+}
+
+.AC2{
+    margin-top: 17%;
+}
+
+.AC3{
+    margin-top: 17%;
+}
+.rec .rectangle{
+    margin-top: 10px;
+}
+/* .AB_div .button1{
+    margin-right: 20px;
+} */
