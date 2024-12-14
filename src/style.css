@@ -37,30 +37,34 @@
 }
 
 .nav a:hover {
-    background: #8b6e2e; 
+   
     transform: scale(1.05); 
 }
-.nav a.active {
+#active {
     font-weight: bold;
-    border-bottom: 2px solid #c28d24; /* Green underline for active link */
+    border-bottom: 2px solid  #890606;
+   
 }
 
 .nav a {
-    text-decoration: none; /* Removes underline */
-    font-size: 18px; /* Adjust font size */
-    padding: 10px 15px; /* Adds spacing around links */
-    transition: background-color 0.5s; /* Smooth hover effect */
+    text-decoration: none; 
+    font-size: 18px; 
+    padding: 10px 15px; 
+    transition: background-color 0.5s; 
 }
 .nav a:hover {
-    border-radius: 5px; 
+    /* border-radius: 5px;  */
+     transform: scale(1.05);
+    font-weight: bold;
+    border-bottom: 2px solid  #890606;
 }
 
 .name{
     margin-left: 10%;
     color: rgb(252, 252, 252);
-    padding: 20px 10px 10px 10px;  /* Adjusted padding for top and bottom */
+    padding: 20px 10px 10px 10px; 
     font-size: 40px;
-    margin-bottom: 250px;  /* Increased margin-top to move name down */
+    margin-bottom: 250px;  
     font-weight: 300;
     /* word-spacing: 20%;
     letter-spacing: 20%; */
@@ -269,8 +273,8 @@
 }
 .Big_div{
     display: flex;
-    justify-content: space-evenly; /* Ensures equal spacing between items */
-    gap: 55px; /* Adds equal spacing between elements */
+    justify-content: space-evenly; 
+    gap: 55px; 
     margin: 50px auto;
     padding: 10px; 
     background-color: saddlebrown; 
@@ -286,8 +290,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 120vh;
-    /* padding-bottom: 30%; */
-    /* margin-top: -30px; */
     
 }
 .big_na{
@@ -311,17 +313,19 @@
 }
 
 .nav3 a {
-    text-decoration: none; /* Remove underline */
-    color: rgb(15, 14, 14); /* Neutral dark text color */
-    font-family: 'Arial', sans-serif; /* Clean font */
-    transition: color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+    text-decoration: none; 
+    color: rgb(15, 14, 14); 
+    font-family: 'Arial', sans-serif; 
+    transition: color 0.3s ease, transform 0.2s ease; 
 }
 
+
+
 .rectangle {
-    width: 99vw; /* Extends the rectangle to the full width of the screen */
-    height: 50px; /* Adjust the height of the rectangle */
+    width: 99vw; 
+    height: 50px; 
     background-color: rgb(135, 11, 32);
-    /* margin-top: 28%; */
+    
 
   }
 
@@ -411,8 +415,11 @@
   }
 
   .nav3 a:hover {
-    color: #8b6e2e; 
-    transform: scale(1.05); 
+    /* color: #8b6e2e; 
+    transform: scale(1.05);  */
+    transform: scale(1.05);
+    font-weight: bold;
+    border-bottom: 2px solid  #890606;
 }
 
 
@@ -421,19 +428,25 @@
 }
 .nav3 a.active {
     font-weight: bold;
-    border-bottom: 2px solid #c28d24; /* Green underline for active link */
+    border-bottom: 2px solid #c28d24; 
 }
 
   .nav4 a {
-    text-decoration: none; /* Remove underline */
-    color: rgb(14, 14, 14); /* Neutral dark text color */
-    font-family: 'Arial', sans-serif; /* Clean font */
-    transition: color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+    text-decoration: none; 
+    color: rgb(14, 14, 14); 
+    font-family: 'Arial', sans-serif; 
+    transition: color 0.3s ease, transform 0.2s ease;
+    
+}
+.nav4 a:hover {
+    transform: scale(1.05);
+    font-weight: bold;
+    border-bottom: 2px solid  #890606; 
 }
   .rectangle1 {
     width: 99vw; 
     height: 80px; 
-    background-color: rgb(135, 79, 11);
+    background-color: #890606;
    
   }
   .Contact_img{
@@ -496,6 +509,7 @@
 
 .AB_div{
     display: flex;
+    margin-top: 20px;
     
 }
 
@@ -666,6 +680,7 @@ a:hover {
     height: 60vh;
     justify-self: center;
     padding-bottom: 100px;
+    
 }
 
 .WH_div{
@@ -747,6 +762,7 @@ signup_div{
 .Follow_div h1 {
     font-size: 24px;
     margin-bottom: 15px;
+    color: #f9f5f5;
 }
 
 .Follow_div a {
@@ -766,6 +782,7 @@ signup_div{
 .Contact_div h2 {
     font-size: 20px;
     margin-bottom: 15px;
+    color: #f9f5f5;
 }
 
 .Contact_div p {
@@ -837,7 +854,8 @@ button:hover {
     margin-top: 17%;
 }
 .button1{
-    margin-top: 50%;
+    margin-left:55%; 
+    margin-top: -4.5%;
     
 }
 
@@ -854,3 +872,17 @@ button:hover {
 /* .AB_div .button1{
     margin-right: 20px;
 } */
+
+/*PROPERTIES*/
+
+.background{
+    background-image: url('../images/P.back.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    
+    padding-bottom: 10%;
+
+}
