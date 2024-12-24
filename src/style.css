@@ -865,6 +865,22 @@ button:hover {
     
 }
 
+.Pp1 {
+    display: none; 
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.button1 button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
 .AC2{
     margin-top: 17%;
 }
@@ -999,36 +1015,49 @@ button:hover {
     margin-top: 37%;
 }
 
-.P_text{
-    text-align: center; 
-    margin: 30px auto; 
-    padding: 20px; 
-    max-width: 600px; 
-    background-color: #fff; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+.P_text {
+    text-align: center;
+    margin: 30px auto 0;
+    margin-top: -20px;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     font-size: larger;
-    transform: scale(1); 
+    transform: scale(1);
     transition: transform 0.3s ease-in-out;
 }
 
+.P_text:hover {
+    transform: scale(1.05);
+}
+
+#future {
+    transition: all 0.3s ease;
+}
+
+#future:hover {
+    cursor: pointer;
+}
+
 .P_text h1 {
-    font-size: 2rem; 
-    color: #090808; 
-    font-family: 'Arial', sans-serif; 
-    margin-bottom: 10px; 
-    text-transform: uppercase; 
-    font-weight: bold; 
+    font-size: 2rem;
+    color: #090808;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
     letter-spacing: 2px;
 }
- 
+
 .P_text p {
-    font-size: 1.5rem; 
-    color: #555; 
-    font-family: 'Arial', sans-serif; 
-    line-height: 1.5; 
+    font-size: 1.5rem;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
     margin: 0;
-    
 }
     
     
