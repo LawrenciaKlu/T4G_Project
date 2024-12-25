@@ -467,8 +467,7 @@
     padding-left: 50px;
     /* font-size: small; */
    
-  }
-   */
+
 
   
   /* .form_div{
@@ -1060,5 +1059,18 @@ button:hover {
     margin: 0;
 }
     
-    
+.Pp1{
+    font-size: 20px; 
+    align-self: auto;
+    color: rgb(92, 68, 3);
+    line-height: 25px;
+    /* margin-bottom:30%; */
+    background-color: hsl(53, 89%, 74%);
+    padding: 20px;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-left: -40%;
+    margin-top: -20%;
+    font-family: Arial, sans-serif ;
+}
 
