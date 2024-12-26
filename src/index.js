@@ -1,83 +1,34 @@
+// Show/Hide functionality
+const toggleButton = document.getElementById("toggleButton");
+const paragraph = document.querySelector(".Pp1");
+
+// Initially hide the paragraph even though you set it to display none in your css on line 804
+paragraph.style.display = "none";
+
+// Add click event to button
+toggleButton.addEventListener("click", () => {
+  if (paragraph.style.display === "none") {
+    paragraph.style.display = "block";
+    toggleButton.textContent = "SHOW LESS";
+  } else {
+    paragraph.style.display = "none";
+    toggleButton.textContent = "SHOW MORE";
+  }
+});
+
+// Hover effect for "future" text
 let future = document.getElementById("future");
 
-        future.addEventListener("mouseover", () => {
-            future.style.color = "darkblue";
-            future.style.fontSize = "30px";
-            future.style.backgroundColor = "lemonchiffon";
-            future.innerHTML = "WE'VE GOT YOU COVERED";
+future.addEventListener("mouseover", () => {
+  future.style.color = "darkblue";
+  future.style.fontSize = "30px";
+  future.style.backgroundColor = "lemonchiffon";
+  future.innerHTML = "WE'VE GOT YOU COVERED";
 });
 
-        future.addEventListener("mouseout", () => {
-            future.style.color = "black";
-            future.style.fontSize = "30px"
-            future.style.backgroundColor = "white"
-            future.innerHTML = "YOUR HOME YOUR FUTURE"
+future.addEventListener("mouseout", () => {
+  future.style.color = "black";
+  future.style.fontSize = "30px";
+  future.style.backgroundColor = "white";
+  future.innerHTML = "YOUR HOME YOUR FUTURE";
 });
-
-
-const toggleButton = document.getElementById('toggleButton');
-const paragraph = document.querySelector('.Pp1');
-
-toggleButton.addEventListener('click', () => {
-    
-    if (paragraph.style.display === 'none' || paragraph.style.display === '') {
-        paragraph.style.display = 'block';
-        toggleButton.textContent = 'SHOW LESS';
-    } else {
-        paragraph.style.display = 'none';
-        toggleButton.textContent = 'SHOW MORE';
-    }
-});
-
-
-
-document.addEventListener('DOMContentLoaded', () => {
-    const currentPage = window.location.pathname.split('/').pop();  
-    const navLinks = document.querySelectorAll('.nav a');
-    
-    navLinks.forEach(link => {
-        if (link.getAttribute('href') === currentPage) {
-            link.setAttribute('id', 'active'); 
-        }
-    });
-});
-
-
-
-
-
-
-
-
-
-//  const button = document.getElementById("toggleButton");
-//         const paragraph = document.querySelector(".Pp1");
-
-//         button.addEventListener("click", () => {
-//             if (paragraph.style.display === "none" || !paragraph.style.display) {
-//                 paragraph.style.display = "block"; 
-//                 button.textContent = "SHOW LESS"; 
-//             } else {
-//                 paragraph.style.display = "none"; 
-//                 button.textContent = "SHOW MORE"; 
-//             }
-//         });
-
-
-
-
- document.querySelector('.button1 button').addEventListener('click', function() {
-    const Pp1Element = document.querySelector('.Pp1');
-    if (Pp1Element.style.display === 'none' || !Pp1Element.style.display) {
-        Pp1Element.style.display = 'block';
-         } else {
-            Pp1Element.style.display = 'none';
-         }
-});
-
-
-
-
-
-
-        
