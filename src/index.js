@@ -1,10 +1,11 @@
+
 let future = document.getElementById("future");
 
-        future.addEventListener("mouseover", () => {
-            future.style.color = "darkblue";
-            future.style.fontSize = "30px";
-            future.style.backgroundColor = "lemonchiffon";
-            future.innerHTML = "WE'VE GOT YOU COVERED";
+future.addEventListener("mouseover", () => {
+  future.style.color = "darkblue";
+  future.style.fontSize = "30px";
+  future.style.backgroundColor = "lemonchiffon";
+  future.innerHTML = "WE'VE GOT YOU COVERED";
 });
 
         future.addEventListener("mouseout", () => {
@@ -14,9 +15,8 @@ let future = document.getElementById("future");
             future.innerHTML = "YOUR HOME YOUR FUTURE"
 });
 
- 
-// const toggleButton = document.getElementById('toggleButton');
-// const paragraph = document.querySelector('.Pp1');
+
+
 
 // toggleButton.addEventListener('click', () => {
     
@@ -27,7 +27,6 @@ let future = document.getElementById("future");
 //         paragraph.style.display = 'none';
 //         toggleButton.textContent = 'SHOW MORE';
 //     }
-// });
 
 
 
@@ -43,26 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-
-
-
-
-
-
-
-
-//  const button = document.getElementById("toggleButton");
-//         const paragraph = document.querySelector(".Pp1");
-
-//         button.addEventListener("click", () => {
-//             if (paragraph.style.display === "none" || !paragraph.style.display) {
-//                 paragraph.style.display = "block"; 
-//                 button.textContent = "SHOW LESS"; 
-//             } else {
-//                 paragraph.style.display = "none"; 
-//                 button.textContent = "SHOW MORE"; 
-//             }
-//         });
 
 
 
