@@ -25,7 +25,7 @@
     display: flex;
     justify-content: space-between; 
     align-self: flex-end; 
-    gap: 90px; 
+    gap: 60px; 
     margin-right: 70px;
     background-color: rgb(252, 252, 252);
     padding: 10px 20px 10px 20px;   
@@ -302,7 +302,7 @@
     display: flex;
     justify-content: space-between; 
     align-self: flex-end; 
-    gap: 90px; 
+    gap:70px; 
     /* margin-right: 50px; */
     background-color: rgb(252, 252, 252);
     padding: 20px 20px 20px 20px; 
@@ -403,7 +403,7 @@
   }
   .nav4{
     display: flex;
-    gap: 65px; 
+    gap: 55px; 
     align-self: flex-end; 
     background-color: rgba(223, 180, 100, 0.855);
     padding: 20px 20px 20px 20px;   
@@ -516,6 +516,10 @@
     display: flex;
     margin-top: 20px;
     
+}
+
+.moreText{
+    display: none;
 }
 
 .form_div{
@@ -861,6 +865,8 @@ button:hover {
 .button1{
     margin-left:55%; 
     margin-top: -4.5%;
+   
+   
     
 }
 

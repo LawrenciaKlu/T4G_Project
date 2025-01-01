@@ -14,20 +14,21 @@ let future = document.getElementById("future");
             future.innerHTML = "YOUR HOME YOUR FUTURE"
 });
 
+ 
+// const toggleButton = document.getElementById('toggleButton');
+// const paragraph = document.querySelector('.Pp1');
 
-const toggleButton = document.getElementById('toggleButton');
-const paragraph = document.querySelector('.Pp1');
-
-toggleButton.addEventListener('click', () => {
+// toggleButton.addEventListener('click', () => {
     
-    if (paragraph.style.display === 'none' || paragraph.style.display === '') {
-        paragraph.style.display = 'block';
-        toggleButton.textContent = 'SHOW LESS';
-    } else {
-        paragraph.style.display = 'none';
-        toggleButton.textContent = 'SHOW MORE';
-    }
-});
+//     if (paragraph.style.display === 'none' || paragraph.style.display === '') {
+//         paragraph.style.display = 'block';
+//         toggleButton.textContent = 'SHOW LESS';
+//     } else {
+//         paragraph.style.display = 'none';
+//         toggleButton.textContent = 'SHOW MORE';
+//     }
+// });
+
 
 
 
